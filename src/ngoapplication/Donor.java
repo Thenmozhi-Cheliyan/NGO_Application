@@ -34,7 +34,7 @@ public class Donor implements NGODetails
         input.nextLine();
         if(mobile_number.length()!=10)
         {
-            System.out.println("Invalid Mobile Number....Please enter a valid mobile number");
+            System.out.println("Invalid Mobile Number.....Please enter a valid mobile number");
             System.exit(0);
         }
         System.out.println("Enter current City : ");

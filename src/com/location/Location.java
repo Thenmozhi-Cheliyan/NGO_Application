@@ -221,7 +221,7 @@ import java.util.*;
      }
      public static void main(String args[]) {
          Scanner sc = new Scanner(System.in);
-         System.out.println("Enter your location ");
+         System.out.println("Enter your location: ");
          String city = sc.next();
          Location myclass = new Location();
          String office = Location.findNearestHub(city);

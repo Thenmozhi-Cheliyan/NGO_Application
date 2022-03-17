@@ -10,7 +10,7 @@ public class NeedyTable
         String DB_URL = "jdbc:mysql://localhost/";
         final String USER = "root";
         final String PASS = "root";
-       try {
+        try {
             Connection conn = DriverManager.getConnection(DB_URL, USER, PASS);
             Statement statement = conn.createStatement();
             String sql = "CREATE DATABASE NEEDYDETAILS";
@@ -19,6 +19,7 @@ public class NeedyTable
         } catch (SQLException e) {
             e.printStackTrace();
         }
+
         try {
             DB_URL +="NEEDYDETAILS";
             Connection conn = DriverManager.getConnection(DB_URL, USER, PASS);
